@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	background-color: gray!important;
+}
+.navbar{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	background-color: black!important;
+}
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	opacity: .3s;
+	z-index: -1;
+	
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: .3s;
+	z-index: -1;
+	background-color: #D5DFF0; 
+	
+}
+/* div */
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+	background-color: #D5DFF0;
+}
+.extradiv{
+	background: #fff;
+	border:medium none;
+	 padding: 50px!important;
+	 border-radius:3px;
+	 -webkit-transition: 0.3s;
+	 -o-transition: 0.3s;
+	 transition: 0.3s;
+	}
+
+.extra-div:hover{
+	-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	-webkit-transform: translate(-30px);
+	    -ms-transform: translate(-30px);
+	        transform: translate(-30px);
+
+}
+	.extra-div h2{
+		font-size: 0.9rem;
+		margin: 40px 0 20px 0;
+		line-height: 1.2;
+		font-weight: bold;
+		word-spacing: 4px;
+	}
+.project-work{
+	margin: 100px 0;
+
+}
+.project-work h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+.pricing{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+}
+.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	opacity: .3s;
+	z-index: -1;
+	background: -o-linear-gradient(290deg, #16c9f6 55%,#fff 0%);
+	background: linear-gradient(160deg, #16c9f6 55%,#fff 0%);
+
+/*iski vajah se ye tilited huaa hua */
+}
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	position: relative;
+}
+.contactus:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	opacity: .3s;
+	z-index: -1;
+	background: -o-linear-gradient(290deg, #16c9f6 55%,#fff 0%);
+	background: linear-gradient(330deg, #16c9f6 55%,#fff 0%);
+
+
+}
+.newsletter{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	position: relative;
+	padding-right: 60%;
+}
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+
+
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff!important;
+	padding: 25px 0!important;
+}
+
+.card-body{
+	padding: 30px 0!important;
+}
+.card-body li{
+	margin:10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060
+}
+
+.card-footer{
+	background: white!important;
+	padding: 30px 0px!important;
+}
+
+
+
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.card-footer a:hover{
+
+	color: #fff;
+	background: #50d1c0;
+	text-decoration: none;
+	-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+
+.newsletter{
+	padding-top: 40PX;
+	padding-bottom: 40PX;
+}
+.card:hover{
+	-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	        box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	-webkit-transform:translate3d( 20 10 10);
+	        transform:translate3d( 20 10 10);
+}
+.formstyle{
+	padding-top: 40PX;
+	padding-bottom: 20PX;
+	width: 70%;
+	height: 60%;
+	padding: 50px;
+	position: relative;
+	background: linear-gradient(160deg, #16c9f6 55%,pink 0%);
+}
+.hello{
+	
+	border-radius: 80%;
+
+}
+
+.juk{
+	padding-top: -40PX;
+	padding-bottom: 40PX;
+	width: 100%;
+	height: -60%;
+	padding: 50px;
+	position: relative;
+	background-color: lightgray;
+}
+.hey{
+	padding-top: -40PX;
+	padding-bottom: 40PX;
+	width: 100%;
+	height: -60%;
+	padding: 50px;
+	position: relative;
+	background-color: gray;
+}
+li{
+	text-decoration: none;
+}
+
+.ourteam{
+	height: 700px;
+	padding-top: 40PX;
+	padding-bottom: 40PX;
+	width: 100%;
+}
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding: 50px 0;
+	position: relative;
+	margin-top: 30px;
+}
+
+/*****************footer
+*/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #00abff;
+	position: relative;
+}
+.footersection{
+	color: black;
+}
+.footersectio li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-align: center;
+	text-decoration: none;
+}
+#myBtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;
+	background: #00abff;
+	padding: 10px;
+	border-radius: 10px;
+}
+#myBtn:hover{
+	background: black;
+}
+@media(max-width: 768px;){
+	.nav-itemm{
+		text-align: center;
+	}
+	.card-second{
+		
+	}
+}</style>
+	<title>web boot</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="bgimg">
+	 <nav class="navbar navbar-expand-lg fixed-top ">
+	                                                                             	<div class=" container text-uppercase p-2"><!-- see ye bootstrap kaa class hai-->
+                                                                                      <a class="navbar-brand" href="#" style="color: white; text-shadow: 1.4px .2px;">Web developer</a>
+                                                                                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                                                                       <span class="navbar-toggler-icon" style="color: white;">menu</span>
+                                                                                       </button>
+                                                                                  </div>
+                                                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                                                 <ul class="navbar-nav ml-auto text-uppercase">
+                                                                    <li class="nav-item active">
+                                                                                      <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+                                                                   </li>
+                                                                     <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;" >Price</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">AboutUs</a>
+
+      </li>
+<li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+</nav>
+<div class="header-section">
+	<div class="basic">
+		<h1 class="font-weight-bold" style="color: white;">WE DEVELOP THE WEB</h1>
+		<h4 style="color: black;">think insideout of box</h4>
+		<div class="header-buttons">
+			
+			<a href="#" style="color: ;">About us</a>
+			<a href="#" style="color: black;">Contact</a>
+
+		</div>
+	</div>
+	<section id="SERVICES" class="container ourservices text-center" >
+		<h1   style="color: #ff9900;">ANYONE CAN HAVE SERVICES TO PROVIDE</h1>
+		<p style="color:#ffcc80 ;">lorem ipsum dolor JUST AS IT is an demo </p>
+<div class="row rowsetting">
+	<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+		<div class="imgsetting d-block m-auto bg-warning text-white"><i class="fa fa-shopping-cart fa-3x text-white"></i></div>
+		<h2 style="color: #ffe6e6" >hello</h2>
+		<p>lorem ipsum dolor sitqwertyuioasdfghjkkkklzzzzzxxxxxxxxcvbnm</p>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+		<div class="imgsetting d-block m-auto bg-warning"><i class="fa fa fa-bitcoin fa-3x text-white"></i></div>
+		<h2 style="color: #ffe6e6">hello</h2>
+		<p>lorem ipsum dolor sit74108520963</p>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+		<div class="imgsetting d-block m-auto bg-warning"><i class="fa fa fa-envira fa-3x text-white"></i></div>
+		<h2 style="color: #ffe6e6">hello</h2>
+		<p>lorem ipsum dolor sit1234567890</p>
+	</div>
+</div>
+
+
+		<div class="container text-center text-white hearderset">
+			<h2 style="color:black;">DEMO WEB</h2>
+			<h1>PRACTISISNG</h1>
+			<button  style="color:#a3a375" class="btn btn-warning text-white btn-lg">HIT THE ENTER</button>
+			
+		</div>
+	</div>
+	
+<section class="portfolio bg-light " id="PORTFOLIO">
+	<div class="container text-center">
+		<h1>showcase your work</h1>
+<p>pictures from google just PRACTIXE </p>
+<div class="row">
+	<div class="col=lg-4 col-md-4 col-sm-10 d-block m-auto">
+		<div class="card">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-SvWhEnc30QVI-6KIoWz67sMO7v6CvLl7qub9FQPpVciHE7hk&usqp=CAU-thumbnail.jpg" class="card-img-fluid">
+			<div class="card-body">
+				<h2 class="card-title">hgvghvhvgvhvb</h2>
+				<p class="card-text">PICTURE1 </p>
+			</div>
+		</div>
+	</div>
+	<div class="col=lg-4 col-md-4 col-sm-10 d-block m-auto">
+		<div class="card">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThv6mZ8Bq-avdY84w8Wq8bJ6ODN2womt-nC68GWIAqF-eYMo1p&usqp=CAU" class="card-img-fluid">
+			<div class="card-body">
+				<h2 class="card-title">hgvghvhvgvhvb</h2>
+				<p class="card-text">PICTURE2 </p>
+			</div>
+		</div>
+	</div>
+	<div class="col=lg-4 col-md-4 col-sm-10 d-block m-auto">
+		<div class="card">
+			<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIQDFKUTBxvheD99-ia5NyMrm2JiRWJk4pG0mpwc6QLHjq92Gc&usqp=CAU" class="card-img-fluid">
+			<div class="card-body">
+				<h2 class="card-title">hgvghvhvgvhvb</h2>
+				<p class="card-text">PICTURE3</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col=lg-4 col-md-4 col-sm-10 d-block m-auto">
+		<div class="card">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-SvWhEnc30QVI-6KIoWz67sMO7v6CvLl7qub9FQPpVciHE7hk&usqp=CAU-thumbnail.jpg" class="card-img-fluid">
+			<div class="card-body">
+				<h2 class="card-title">hgvghvhvgvhvb</h2>
+				<p class="card-text">PICTURE </p>
+			</div>
+		</div>
+	</div>
+	<div class="col=lg-4 col-md-4 col-sm-10 d-block m-auto">
+		<div class="card">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7IGm40V4kfw9Agt9GDt4sLY6oGz2vpSGt3Jfbx5P9uNt_et3k&usqp=CAU" class="card-img-fluid">
+			<div class="card-body">
+				<h2 class="card-title">hgvghvhvgvhvb</h2>
+				<p class="card-text">jnjnjnk k </p>
+			</div>
+		</div>
+	</div>
+	<div class="col=lg-4 col-md-4 col-sm-10 d-block m-auto">
+		<div class="card">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTE1Z7wPEL9wLbek8EjwEpGZlTmLuE2ITb9wqm_4ARCWyGORALR&usqp=CAU" class="card-img-fluid">
+			<div class="card-body">
+				<h2 class="card-title">hgvghvhvgvhvb</h2>
+				<p class="card-text">jnjnjnk k </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	</div>
+</section>
+
+	
+
+
+
+	<section class="ourteam">
+		<div class="container text-center">
+			<h1 style="color: #ff9900;>important</h1>
+			<p style="color: white;>it;s craxy that people knoe who;s in the team</p>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+					<figure class="figure">
+						<img src="https://i1.sndcdn.com/artworks-000238834368-u7bclk-t500x500.jpg" class="figure-img img-fluid rounded-circle height="250px"
+						width="250px" ">
+						<figcaption>
+							<h4>mememememe</h4>
+							<p>hellohello</p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+					<figure class="figure">
+						<img src="https://www.fesliyanstudios.com/tagpictures/26.jpg" class="figure-img img-fluid rounded-circle height="250px"
+						width="250px" ">
+						<figcaption>
+							<h4 style="color: #ffe6e6" >mememememe</h4>
+							<p>hellohello</p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+					<figure class="figure">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdESWqi9PBtLjDFk3tvUjdMjWRCsc6h2CLJNFPQ5O_oMew3BVd&usqp=CAU" class="figure-img img-fluid rounded-circle height="250px"
+						width="250px" ">
+						<figcaption>
+							<h4>mememememe</h4>
+							<p>hellohello</p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+	<!-- YE YHAA AE FIGURE HTML 5 KAA TAG HAI BOOTSTRAP KAA GRID HAI EK ROW  HA TEEN COLUMN -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<h6 style="color: #ff9900; text-align: center; class="text-center">raghavcopyright</h6>
+</footer>
+</body>
+</html>
